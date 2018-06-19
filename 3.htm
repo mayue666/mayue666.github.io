@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>new window</title>
+</head>
+<body>
+<a href="javascript:popUp('http://www.sohu.com/ ');">Example1</a>
+<a href="#" onclick="popUp('http://www.sohu.com/ ');return false;">Example2</a>
+<a href="http://www.sohu.com/ "  onclick="popUp(this.herf); return false;">Example3</a>
+<script>
+function popUp(winURL){
+  window.open(winURL,"popup","width=320,height=480");
+}
+</script>
+</body>
+</html>
